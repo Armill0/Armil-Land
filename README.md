@@ -1,6 +1,6 @@
 # Armil Land 🎮
 
-![Intro GIF](images/ClipArmilLand.gif)
+![Intro GIF](ClipArmilLand.gif)
 
 **Un RPG testuale sviluppato in C++ con programmazione a oggetti.**
 
