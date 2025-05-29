@@ -35,3 +35,14 @@ Questo progetto è protetto da Creative Commons, quindi può essere visualizzato
 
 ## ✨ Autore
 Creato con passione da Alessandro, aspirante sviluppatore e amante della programmazione in C++.
+
+## 🔥 Obiettivi futuri
+- Implementare una GUI per un'interfaccia più avanzata
+- Aggiungere più classi e abilità speciali
+- Creare un sistema multiplayer online
+- Introdurre un sistema di quest procedurali
+
+## 🤝 Contributi
+Se vuoi migliorare Armil Land, sentiti libero di aprire una pull request! 💡
+
+![C++](https://img.shields.io/badge/C++-blue.svg)
