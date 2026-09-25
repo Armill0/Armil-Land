@@ -74,7 +74,7 @@ public:
         puntiStatistica += 3; // 3 punti stat per livello
 
         cout << "\n*** LIVELLO AUMENTATO! ***" << endl;
-        cout << name << " è ora di livello " << livello << "!" << endl;
+        cout << name << " Ã¨ ora di livello " << livello << "!" << endl;
         cout << "Hai guadagnato 3 punti statistica da distribuire!" << endl;
 
         // Bonus automatici per ogni level up
