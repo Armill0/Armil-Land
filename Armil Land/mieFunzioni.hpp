@@ -39,11 +39,11 @@ void stampaLenta(const string& testo){
 
 void storiaIntroduttiva(){
     string storie[] {
-            "In un mondo avvolto dalle fiamme dei draghi, solo un eroe può riportare la pace... \n",
-            "Le forze oscure avanzano. Il destino di Armil Land è nelle tue mani... \n",
+            "In un mondo avvolto dalle fiamme dei draghi, solo un eroe puÃ² riportare la pace... \n",
+            "Le forze oscure avanzano. Il destino di Armil Land Ã¨ nelle tue mani... \n",
             "Un'antica profezia narra di un guerriero destinato a salvare il regno. Sarai tu? \n",
-            "I mostri invadono le terre. È giunto il momento di impugnare le armi e combattere! \n",
-            "Nel cuore della foresta proibita, un'oscura minaccia cresce... Solo un vero eroe può fermarla! \n"
+            "I mostri invadono le terre. Ãˆ giunto il momento di impugnare le armi e combattere! \n",
+            "Nel cuore della foresta proibita, un'oscura minaccia cresce... Solo un vero eroe puÃ² fermarla! \n"
     };
     int indiceCasuale = rand() % (sizeof(storie) / sizeof(storie[0]));
     cout << "**********************************************************************************************" << endl;
@@ -256,7 +256,7 @@ Mossa scegliMossa(Mossa mosse[], int dimensione, Personaggio& giocatore) {
         }
 
         if (giocatore.cooldownBuff > 0) {
-            cout << giocatore.name << " non può usare il buff per altri " << giocatore.cooldownBuff << " turni. \n";
+            cout << giocatore.name << " non puÃ² usare il buff per altri " << giocatore.cooldownBuff << " turni. \n";
             return scegliMossa(mosse, dimensione, giocatore);
         }
 
@@ -273,7 +273,7 @@ Mossa scegliMossa(Mossa mosse[], int dimensione, Personaggio& giocatore) {
         } else if (giocatore.tipoClasse == ARCIERE) {
             giocatore.tassocritico *= 1.2;
             giocatore.attacco *= 1.2;
-            cout << giocatore.name << " usa Occhio di Falco! Le probabilità di critico aumentano. \n";
+            cout << giocatore.name << " usa Occhio di Falco! Le probabilitÃ  di critico aumentano. \n";
         }
 
         giocatore.cooldownBuff = 4;
@@ -380,8 +380,8 @@ void applicaEffettoRuna(Personaggio* personaggio) {
     personaggio->mana = 500;
     personaggio->vita += 200;
 
-    cout << " Il mana di " << personaggio->name << " ora è al massimo! \n";
-    cout << " Sembra anche più in forma!\n";
+    cout << " Il mana di " << personaggio->name << " ora Ã¨ al massimo! \n";
+    cout << " Sembra anche piÃ¹ in forma!\n";
 
     cout << "\nStato dopo il potenziamento della runa:\n";
     barraVita(personaggio->name, (int)personaggio->vita, (int)personaggio->vitaMax);
@@ -401,10 +401,10 @@ bool controllaGameOver(Personaggio* personaggio, int mostriSconfitti) {
         cout << personaggio->name << " ha sconfitto " << mostriSconfitti << " mostri!\n";
 
         if (mostriSconfitti >= 1) {
-            cout << "Armil Land è molto più sicura ora <3\n";
-            cout << personaggio->name << " è un vero eroe.\n";
+            cout << "Armil Land Ã¨ molto piÃ¹ sicura ora <3\n";
+            cout << personaggio->name << " Ã¨ un vero eroe.\n";
         } else {
-            cout << "Oh, no! Chi salverà Armil Land ora?\n";
+            cout << "Oh, no! Chi salverÃ  Armil Land ora?\n";
         }
         cout << "***************************************************\n";
 
