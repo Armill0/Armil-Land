@@ -13,9 +13,9 @@
 
 using namespace std;
 
-#include "mieClassi.h"
-#include "mieStrutture.h"
-#include "mieFunzioni.h"
+#include "mieClassi.hpp"
+#include "mieStrutture.hpp"
+#include "mieFunzioni.hpp"
 
 
 #endif // MIELIBRERIE_H_INCLUDED
